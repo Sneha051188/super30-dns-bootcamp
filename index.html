@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Sneha Kumari's Personal Portfolio Website" />
   <title>Sneha Kumari | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
 </head>
 <body>
 
@@ -45,38 +45,64 @@
   <!-- About -->
   <section id="about" class="section fade-in">
     <h2>About Me</h2>
-    <p>I'm a tech enthusiast currently pursuing my degree in Computer Science at SRM University, Vadapalani. I love building projects that solve real-world problems and learning new technologies.</p>
+    <p>I'm a tech enthusiast currently pursuing my degree in Computer Science Engineering at SRM University, Vadapalani. I love building projects that solve real-world problems and learning new technologies that push boundaries.
+
+       I'm actively involved in university tech events and collaborative projects, constantly sharpening my leadership, teamwork, and problem-solving skills.
+       I regularly take part in hackathons, coding contests, and technical workshops to stay up-to-date with the latest trends in tech.
+       I've collaborated on projects across domains like education, healthcare, and sustainability, focusing on innovation and impact.
+       Beyond building, I also mentor juniors and contribute to open-source projects, which helps me grow while giving back to the tech community.</p>
   </section>
 
   <!-- Skills -->
-  <section id="skills" class="section fade-in">
-    <h2>Skills</h2>
+  <section class="section" id="skills">
+    <h2>My Skills</h2>
     <ul class="skills-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>C/C++</li>
-      <li>Arduino</li>
-      <li>SQL</li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <span>HTML5</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <span>CSS3</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <span>React</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <span>Node.js</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <span>Python</span>
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <span>Git</span>
+      </li>
     </ul>
   </section>
+  
 
   <!-- Projects -->
   <section id="projects" class="section fade-in">
     <h2>Projects</h2>
-    <div class="filter-buttons">
-      <button class="filter-btn">All</button>
-      <button class="filter-btn">Web</button>
-      <button class="filter-btn">Python</button>
-      <button class="filter-btn">Hardware</button>
-    </div>
+    <nav class="filter-buttons" role="group" aria-label="Project Filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="hardware">Hardware</button>
+    </nav>    
     <div class="projects-container">
       <div class="project-card">
         <h3>Asteroid Game</h3>
         <p>A fun 2D space game built using Python and Pygame. Navigate a spaceship and dodge asteroids with smooth gameplay and scoring.</p>
         <a href="https://github.com/yourusername/asteroid-game" class="submit-btn" target="_blank">GitHub</a>
-        <a href="#" class="submit-btn" target="_blank">Live Demo</a>
       </div>
       <div class="project-card">
         <h3>Sports Management System</h3>
@@ -92,16 +118,69 @@
   </section>
 
   <!-- Experience -->
-  <section id="experience" class="section fade-in">
-    <h2>Experience</h2>
-    <p>Actively involved in university tech events and collaborative projects with peers, building leadership and problem-solving skills.</p>
-  </section>
+<section id="experience" class="section fade-in">
+  <h2>Experience</h2>
+  <div class="timeline">
 
-  <!-- Education -->
-  <section id="education" class="section fade-in">
-    <h2>Education</h2>
-    <p>Bachelor of Technology (B.Tech), Computer Science Engineering<br>SRM Institute of Science and Technology, Vadapalani Campus</p>
-  </section>
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fas fa-code-branch"></i></div>
+      <div class="timeline-content">
+        <h3>Hackathons & Workshops</h3>
+        <p>Participated in hackathons, coding contests, and technical workshops to stay sharp and updated with industry trends.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fas fa-users"></i></div>
+      <div class="timeline-content">
+        <h3>Collaborative Projects</h3>
+        <p>Worked with peers on innovative solutions across education, healthcare, and sustainability domains.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+      <div class="timeline-content">
+        <h3>Mentorship & Open Source</h3>
+        <p>Mentored juniors and contributed to open‑source projects, strengthening my skills and giving back to the community.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="section fade-in">
+  <h2>Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="timeline-content">
+        <h3>B.Tech, Computer Science Engineering</h3>
+        <p><strong>SRM Institute of Science and Technology</strong> (2023–Present)<br>
+        CGPA: 9.71<br>
+        <strong>Relevant Skills:</strong> DSA, Web Dev, Python, Java, MySQL, OOP, Git & GitHub</p>
+      </div>
+    </div>
+
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fas fa-school"></i></div>
+      <div class="timeline-content">
+        <h3>Higher Secondary Education</h3>
+        <p><strong>Railway Bala Bhavan Matriculation HSS</strong> (2020–2022)<br>
+        Focus: Biology & Mathematics</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="resume-section glass">
+    <h3>Resume</h3>
+    <p>Download my resume to see more details about my projects and achievements.</p>
+    <a class="submit-btn" href="assets/YourResume.pdf" target="_blank">Download Resume</a>
+  </div>
+</section>
 
   <!-- Contact -->
   <section id="contact" class="section fade-in">
@@ -113,10 +192,6 @@
       <button type="submit" class="submit-btn">Send Message</button>
     </form>
   </section>
-
-  <!-- Resume Button -->
-  <a href="resume.pdf" download class="submit-btn">Download Resume</a>
-  
 
   <!-- Music Toggle -->
   <audio id="bg-music" loop>
@@ -213,3 +288,4 @@
   </script>
 </body>
 </html>
+
